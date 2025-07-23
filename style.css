@@ -36,6 +36,12 @@ body{
     width: 100%;
     padding: 1em;
     display: flex;
+    position: fixed;
+    top: 10;
+}
+
+.navbar nav{
+    display: none;
 }
 
 .navbar nav ul{
