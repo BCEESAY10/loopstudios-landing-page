@@ -93,6 +93,8 @@ nav ul li a{
 .hero{
     height: 100vh;
     background-image: url('images/mobile/image-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,5 +118,10 @@ nav ul li a{
     }
     img#mobileMenu{
         display: none;
+    }
+    .hero{
+        background-image: url('images/desktop/image-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
