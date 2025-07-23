@@ -12,6 +12,7 @@
     --grey-200: hsl(0, 0%, 85%);
 
     --font-size: clamp(0.875rem, 1.5vw, 1rem);
+    --font-md: 2rem;
     --font-lg: 3rem;
 }
 
@@ -31,9 +32,6 @@ body{
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
-}
-.font-lg{
-    font-size: var(--font-lg);
 }
 
 .navbar{
@@ -101,10 +99,13 @@ nav ul li a{
 }
 
 .hero .heroPage{
-    width: 85vw;
-    padding: 1em;
+    width: 19rem;
+    padding: .5em;
     color: var(--white);
     border: 2px solid var(--white);
+    text-transform: uppercase;
+    font-size: var(--font-md);
+    overflow: hidden;
 }
 
 
@@ -123,5 +124,11 @@ nav ul li a{
         background-image: url('images/desktop/image-hero.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        justify-content: flex-start;
+    }
+    .hero .heroPage{
+        width: 35vw;
+        margin-left: 2vw;
+        font-size: var(--font-lg);
     }
 }
