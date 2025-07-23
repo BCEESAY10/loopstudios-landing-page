@@ -72,7 +72,7 @@ nav ul li a{
     align-items: center;
     justify-content: flex-start;
     opacity: 0;
-    animation: showNavbar .5s ease-in;
+    animation: showNavbar 1s ease-in-out alternate;
 }
 
 @keyframes showNavbar {
