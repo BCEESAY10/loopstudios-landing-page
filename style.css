@@ -104,3 +104,17 @@ nav ul li a{
     color: var(--white);
     border: 2px solid var(--white);
 }
+
+
+
+@media (min-width: 75em){
+    .navbar nav {
+        display: flex;
+    }
+    .mobile-navbar{
+        display: none;
+    }
+    img#mobileMenu{
+        display: none;
+    }
+}
