@@ -11,7 +11,8 @@
     --black: hsl(0, 0%, 0%);
     --grey-200: hsl(0, 0%, 85%);
 
-    --font-size: clamp(15px, 2vw, 16px);
+    --font-size: clamp(0.875rem, 1.5vw, 1rem);
+    --font-lg: 3rem;
 }
 
 body{
@@ -30,6 +31,9 @@ body{
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+.font-lg{
+    font-size: var(--font-lg);
 }
 
 .navbar{
@@ -89,4 +93,14 @@ nav ul li a{
 .hero{
     height: 100vh;
     background-image: url('images/mobile/image-hero.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .heroPage{
+    width: 85vw;
+    padding: 1em;
+    color: var(--white);
+    border: 2px solid var(--white);
 }
