@@ -10,10 +10,14 @@
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 0%);
     --grey-200: hsl(0, 0%, 85%);
+
+    --font-size: clamp(15px, 1vw, 16px);
 }
 
 body{
     font-family: var(--font-alata);
+    font-size: var(--font-size);
+    background-color: var(--grey-200);
 }
 
 .alata-regular {
