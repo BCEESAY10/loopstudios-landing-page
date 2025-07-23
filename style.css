@@ -34,10 +34,10 @@ body{
 
 .navbar{
     width: 100%;
-    padding: 1em;
+    padding: 1.5em;
     display: flex;
     position: fixed;
-    top: 10;
+    top: 32px;
 }
 
 .navbar nav{
@@ -55,4 +55,9 @@ body{
 
 .navbar nav ul li a{
     text-decoration: none;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url('images/mobile/image-hero.jpg');
 }
