@@ -31,3 +31,22 @@ body{
     font-weight: 300;
     font-style: normal;
 }
+
+.navbar{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+}
+
+.navbar nav ul{
+    display: flex;
+    gap: 1em;
+}
+
+.navbar nav ul li{
+    list-style: none;
+}
+
+.navbar nav ul li a{
+    text-decoration: none;
+}
