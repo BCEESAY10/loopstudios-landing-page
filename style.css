@@ -11,7 +11,7 @@
     --black: hsl(0, 0%, 0%);
     --grey-200: hsl(0, 0%, 85%);
 
-    --font-size: clamp(0.875rem, 1.5vw, 1rem);
+    --font-size: clamp(15px, 1.5vw, 30px);
     --font-md: 2rem;
     --font-lg: 3rem;
 }
@@ -61,6 +61,10 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: var(--white);
+}
+
+nav ul li a:hover{
+    cursor: pointer;
 }
 
 .mobile-navbar{
@@ -119,6 +123,9 @@ nav ul li a{
     }
     img#mobileMenu{
         display: none;
+    }
+    nav ul li a{
+        font-size: var(--font-size);
     }
     .hero{
         background-image: url('images/desktop/image-hero.jpg');
