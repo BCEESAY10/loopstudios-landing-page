@@ -127,6 +127,11 @@ nav ul li a:hover{
     nav ul li a{
         font-size: var(--font-size);
     }
+
+    a:hover{
+        border-bottom: 1px solid white;
+    }
+
     .hero{
         background-image: url('images/desktop/image-hero.jpg');
         background-repeat: no-repeat;
