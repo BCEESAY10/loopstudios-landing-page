@@ -166,8 +166,16 @@ nav ul li a:hover{
     .about{
         display: flex;
         padding: 5em;
+        position: relative;
     }
     .about img{
         width: calc(100vw / 2);
+    }
+    .about .about-article{
+        background-color: var(--grey-200);
+        width: calc(100vw / 2);
+        position: absolute;
+        top: 45%;
+        right: 3em;
     }
 }
