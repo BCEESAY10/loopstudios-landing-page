@@ -112,6 +112,9 @@ nav ul li a:hover{
     overflow: hidden;
 }
 
+.about{
+    padding: 5em 1em;
+}
 
 
 @media (min-width: 75em){
