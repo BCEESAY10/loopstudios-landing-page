@@ -28,7 +28,7 @@ body{
     font-style: normal;
 }
 
-.alata-regular {
+.josefin-regular {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -116,6 +116,18 @@ nav ul li a:hover{
     padding: 5em 1em;
 }
 
+.about .about-article{
+    padding: 1em;
+}
+.about .about-article p{
+    line-height: 2em;
+    text-align: center;
+}
+.about .about-article h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
 
 @media (min-width: 75em){
     .navbar nav {
