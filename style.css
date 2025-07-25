@@ -159,6 +159,7 @@ nav ul li a:hover{
 }
 .products .top button:hover{
     background-color: var(--black);
+    color: var(--white);
 }
 .products .cards{
     display: grid;
@@ -221,4 +222,11 @@ nav ul li a:hover{
         top: 45%;
         right: 3em;
     }
+    .products .top{
+        flex-direction: row;
+    }
+    .products .top button {
+        position: static;
+    }
+
 }
