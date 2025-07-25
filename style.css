@@ -156,6 +156,7 @@ nav ul li a:hover{
     border: 1px solid var(--black);
     position: absolute;
     bottom: 0;
+    text-transform: uppercase;
 }
 .products .top button:hover{
     background-color: var(--black);
