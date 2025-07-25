@@ -135,6 +135,7 @@ nav ul li a:hover{
 
 .products{
     padding: 1em;
+    padding-bottom: 3em;
     position: relative;
 }
 .products .top{
@@ -158,6 +159,11 @@ nav ul li a:hover{
 }
 .products .top button:hover{
     background-color: var(--black);
+}
+.products .cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
 }
 .products .cards .card{
     position: relative;
