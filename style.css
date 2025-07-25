@@ -222,11 +222,17 @@ nav ul li a:hover{
         top: 45%;
         right: 3em;
     }
+    .products{
+        padding: 1em 5em;
+    }
     .products .top{
         flex-direction: row;
     }
     .products .top button {
         position: static;
+    }
+    .products .cards{
+        grid-template-columns: repeat(4, 1fr);
     }
 
 }
