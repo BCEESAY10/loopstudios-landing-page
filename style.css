@@ -178,6 +178,30 @@ nav ul li a:hover{
     left: 1em;
 }
 
+footer{
+    padding: 1em;
+    background-color: var(--black);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 1em;
+}
+
+footer .footer-logo{
+    margin: 2em 0;
+}
+
+footer nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+footer nav a{
+    color: var(--white);
+    text-decoration: none;
+}
+
 @media (min-width: 75em){
     .navbar nav {
         display: flex;
