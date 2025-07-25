@@ -140,6 +140,7 @@ nav ul li a:hover{
 .products .top{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 .products .top h1{
@@ -152,6 +153,8 @@ nav ul li a:hover{
     letter-spacing: .3em;
     cursor: pointer;
     border: 1px solid var(--black);
+    position: absolute;
+    bottom: 0;
 }
 .products .top button:hover{
     background-color: var(--black);
