@@ -133,6 +133,25 @@ nav ul li a:hover{
     margin: 1em 0;
 }
 
+.products{
+    padding: 1em;
+}
+.products .top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.products .top h1{
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+.products .top button{
+    padding: .3em 1em;
+    background-color: transparent;
+    letter-spacing: .3em;
+    cursor: pointer;
+}
+
 @media (min-width: 75em){
     .navbar nav {
         display: flex;
