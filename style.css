@@ -146,10 +146,14 @@ nav ul li a:hover{
     margin: 1em 0;
 }
 .products .top button{
-    padding: .3em 1em;
+    padding: .3em 1.5em;
     background-color: transparent;
     letter-spacing: .3em;
     cursor: pointer;
+    border: 1px solid var(--black);
+}
+.products .top button:hover{
+    background-color: var(--black);
 }
 
 @media (min-width: 75em){
