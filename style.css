@@ -180,7 +180,7 @@ nav ul li a:hover{
 
 footer{
     margin-top: 1em;
-    padding: 1em;
+    padding: 3em 1em;
     background-color: var(--black);
     display: grid;
     align-items: center;
@@ -190,10 +190,6 @@ footer{
 
 footer .social-icons{
     margin-top: 1em;
-}
-
-footer .footer-logo{
-    margin: 2em 0;
 }
 
 footer p{
