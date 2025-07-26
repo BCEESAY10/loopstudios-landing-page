@@ -265,4 +265,15 @@ footer nav a{
         grid-template-columns: repeat(4, 1fr);
     }
 
+    footer{
+        padding: 1em;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer nav{
+        flex-direction: row;
+        grid-row-start: 2;
+        grid-column-start: 1;
+    }
+
 }
