@@ -188,6 +188,10 @@ footer{
     gap: 1em;
 }
 
+footer .social-icons{
+    margin-top: 1em;
+}
+
 footer .footer-logo{
     margin: 2em 0;
 }
