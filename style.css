@@ -179,6 +179,7 @@ nav ul li a:hover{
 }
 
 footer{
+    margin-top: 1em;
     padding: 1em;
     background-color: var(--black);
     display: grid;
@@ -189,6 +190,10 @@ footer{
 
 footer .footer-logo{
     margin: 2em 0;
+}
+
+footer p{
+    color: var(--grey-200);
 }
 
 footer nav{
