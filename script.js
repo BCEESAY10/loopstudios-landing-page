@@ -1,5 +1,6 @@
 const toggleButton = document.getElementById('mobileMenu');
 const mobileNavbar = document.querySelector('.mobile-navbar');
+const navItems = document.querySelectorAll('ul li a');
 
 function toggleMenu() {
   const isOpen = toggleButton.src.includes('icon-hamburger.svg');
@@ -15,5 +16,11 @@ function toggleMenu() {
   }
 }
 
+function hideMenu(){
+    toggleMenu();
+}
 
+navItems.forEach(item => {
+    item.addEventListener('click', hideMenu);
+});
 toggleButton.addEventListener('click', toggleMenu);
