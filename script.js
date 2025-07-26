@@ -1,5 +1,6 @@
 const toggleButton = document.getElementById('mobileMenu');
 const mobileNavbar = document.querySelector('.mobile-navbar');
+const navbar = document.querySelector(".navbar");
 const navItems = document.querySelectorAll('ul li a');
 
 function toggleMenu() {
@@ -19,6 +20,18 @@ function toggleMenu() {
 function hideMenu(){
     toggleMenu();
 }
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  const threshold = window.innerHeight; 
+
+  if (scrollY > threshold) {
+    navbar.style.backgroundColor = "#000";  
+  } else {
+    navbar.style.backgroundColor = "transparent";
+  }
+});
+
 
 navItems.forEach(item => {
     item.addEventListener('click', hideMenu);
